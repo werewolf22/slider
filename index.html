@@ -1,71 +1,151 @@
 <!DOCTYPE html><!-- HI EVERYONE -->
-   <html>
-        <head>
-            <meta charset="iso-8859-1">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <title>Amrit Science Campus Thamel</title>
-            <meta name="description" content="">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link rel="stylesheet" type="text/css" href="css/style.css"/>
-            <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-		    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
-            <link href = "css/main.css" rel="stylesheet"media="screen">
-            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
-               
-        </head>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Amrit Science Campus</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <!-- Social Icons -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href = "css/main.css" rel="stylesheet" media="screen">
+
+</head>
 <body>
     <header id="header">
-            <!-- jQuery handles to place the header background images -->
-    <div id="headerimgs" >
-        <div id="headerimg1" class="headerimg"></div>
-        <div id="headerimg2" class="headerimg"></div>
-    </div>
-            <!-- Top navigation on top of the images -->
-    <div id="nav-outer">
-        <div id="navigation">
-            <div id="menu">
-            <nav class="navbar navbar-default navbar-static-top" role="navigation" >
-            <div class="container-fluid">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <div class="navbar-collapse collapse navbar-ex1-collaspe" style="height:15px;padding:0;">
-                    <ul class="nav navbar-nav navbar-right" >
-                        <li class="active" style="height:20px!important;"><a href="http://www.amritcampus.edu.np/"><span class="glyphicon glyphicon-home"></span>&nbsp; Home</a></li>
-                        <li class=""><a href="#" ><span class="glyphicon  glyphicon-education"></span>&nbsp;Academics&nbsp;</a></li>
-                        <li ><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;Admission&nbsp;</a></li> 
-                        <li><a class="page-scroll" href="#"><span class="glyphicon glyphicon-book"></span>&nbsp;Research</a></li>
-                        <li><a class="page-scroll" href="#"><span class="glyphicon glyphicon-info-sign"></span>&nbsp; About</a></li>
-                    </ul>
-                </div>
-                </div>
-                </nav>S
+        <!-- jQuery handles to place the header background images -->
+        <div id="headerimgs" >
+            <div id="headerimg1" class="headerimg"></div>
+            <div id="headerimg2" class="headerimg"></div>
         </div>
-    </div>
-        <!-- Slideshow controls -->
-    <div id="headernav-outer">
-        <div id="headernav">
-            <div id="back" class="btn"></div>
-            <div id="control" class="btn"></div>
-            <div id="next" class="btn"></div>
+        <!-- Top navigation on top of the images -->
+        <div id="nav-outer">
+            <div id="navigation">
+                <div id="menu">
+                    <nav class="navbar navbar-default navbar-static-top" role="navigation" >
+                        <div class="container-fluid">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <div class="navbar-collapse collapse navbar-ex1-collaspe" style="height:15px;padding:0;">
+                                <ul class="nav navbar-nav navbar-right" >
+                                    <li class="active" style="height:20px!important;"><a href="http://www.amritcampus.edu.np/"><span class="glyphicon glyphicon-home"></span>&nbsp; Home&nbsp;</a></li>
+                                    <li class=""><a href="#" ><span class="glyphicon  glyphicon-education"></span>&nbsp;Academics&nbsp;</a></li>
+                                    <li ><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;Admission&nbsp;</a></li> 
+                                    <li><a class="page-scroll" href="#"><span class="glyphicon glyphicon-book"></span>&nbsp;Research&nbsp;</a></li>
+                                    <li><a class="page-scroll" href="#"><span class="glyphicon glyphicon-info-sign"></span>&nbsp; About&nbsp;</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- Slideshow controls -->
+            <div id="headernav-outer">
+                <div id="headernav">
+                    <div id="back" class="btn"></div>
+                    <div id="control" class="btn"></div>
+                    <div id="next" class="btn"></div>
+                </div>
+            </div>
+            <!-- jQuery handles for the text displayed on top of the images -->
+            <div id="headertxt">
+                <p class="caption">
+                    <span id="firstline"></span>
+                    <a href="#" id="secondline"></a>
+                </p>
+                <p class="pictured">
+                    Pictured:
+                    <a href="#" id="pictureduri"></a>
+                </p>
+            </div>
         </div>
+    </header>
+    <section>
+    <div class="content" style="width: auto;position: relative;">
+         <div class="blur" style="width: 100%;top: 0;left: 0;">
+
+        </div>
+         <p>Query handles for the text displayed on top of the imagesQuery handles for the text displayed on top of the imagesQuery handles for the text displayed on top of the imagesQuery handles for the text displayed on top of the imagesQuery handles for the text displayed on top of the images Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
     </div>
-        <!-- jQuery handles for the text displayed on top of the images -->
-    <div id="headertxt">
-        <p class="caption">
-            <span id="firstline"></span>
-            <a href="#" id="secondline"></a>
-        </p>
-        <p class="pictured">
-            Pictured:
-            <a href="#" id="pictureduri"></a>
-        </p>
-    </div>
-</div>
-   </header>
-   <script type="text/javascript" src="js/script.js"></script>
-   </body>
-   </html>
+    </section>
+    <footer class="footer-distributed footer-wrap
+    ">
+
+        <div class="footer-left">
+
+            <h3>Amrit <span>Science</span> College</h3>
+
+            <p class="footer-links">
+                <a href="index.html">Home</a>
+                ·
+                <a href="academics.html">Academics</a>
+                ·
+                <a href="admission.html">Admission</a>
+                ·
+                <a href="research.html">Research</a>
+                ·
+                <a href="about.html">About</a>
+                ·
+            </p>
+
+            <p class="footer-company-name"> All Rights Reserved. &copy; ASCol 2016 | Desined By CSIT Students</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Thamel</span>Kathmandu, Nepal</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>Call us: 01-7654321</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="#">Email: contact@amritcampus.edu.np</a><br></p>
+            </div>
+
+        </div>
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>About Us</span>
+                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+            </p>
+
+            <div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
